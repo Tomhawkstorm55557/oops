@@ -66,6 +66,10 @@ class developer extends person{
     public developer(int age, String name){
         /// super--->> call the constructor of class paarent
         super(age,name);
+/// this is the type of polymorphism in this  if if the walk function is present in child class it wont look for another this is knw as compiler polymorphism 	    
+	    
+	void walk(){
+          system.out.println("developer" + name + "walking);
         
     }
 }
