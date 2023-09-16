@@ -15,8 +15,6 @@ public class absrt
 	}
 }
 class audi extends Car{
-/// use overide 	
-	
     @Override
     void start(){
         System.out.println("car is start");
